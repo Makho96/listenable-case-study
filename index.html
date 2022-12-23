@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listenable</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+<body class="pb-10">
+  <main>
+    <section class="hero section w-full h-[600px] relative overflow-hidden pl-[40px] flex justify-between items-center box-border">
+      <div class="page-info w-full h-full flex flex-col justify-center items-start flex-wrap" style="width: calc(50% - 40px);">
+        <div class="logo">
+          <img src="./assets/images/logo.svg"  alt="logo"/>
+        </div>
+        <div class="left">
+          <h1 class="pt-5 decription">The content and delivery system to set your podcast apart</h1>
+          <p class="pt-4">
+            “The Bert Show” podcast series owners wanted to see detailed statistics about their show. We needed to create a web application that shows statistics from various social networks like Youtube, Spotify, Megaphone, and Twitter. What they needed to see was how people were reacting to each podcast: how many subscribers they gained(in the case of Youtube), how many subscribers they lost, what was the average listening/view time per episode, which age category was listening to each episode and how are listeners distributed by age category?
+            <br />
+            Our team began the research and found out that Youtube has an API that gives developers the data we needed for this web application. 
+          </p>
+        </div>
+      </div>
+      <div class="right absolute right-0 top-0 w-[50%] h-full">
+        <div class="cover w-full">
+          <div class="cover-inner-container h-full absolute rotate-[10deg] right-[-10%] top-[-10%] w-full">
+            <img src="./assets/images/home.png" alt="" class="w-full block"/>
+          </div>
+        </div>
+        <div class="transparent-background absolute w-full h-full top-0 left-0"></div>
+      </div>
+    </section>
+    <section class="flex justify-center page-sections px-[5%] pt-[40px]">
+      <div class="max-w-[1500px]">
+        <h2 class="title center">Tech Details</h2>
+        <div class="tech-cont mt-4 w-full flex justify-center">
+          <div class="details-info-cont flex items-start justify-center min-w-[250px] px-4">
+            <div class="flex flex-col items-start">
+              <h3 class="tech-cont-title">Duration</h3>
+              <span class="tech-text">4 monts - present</span>
+            </div>
+          </div>
+          <div class="details-info-cont flex items-start justify-center min-w-[250px] px-4">
+            <div class="flex flex-col items-start">
+              <h3 class="tech-cont-title">Team <span style="font-weight: normal;">(5 people)</span></h3>
+              <ul>
+                <li><span class="tech-text">Project manager</span></li>
+                <li><span class="tech-text">Business analyst</span></li>
+                <li><span class="tech-text">UI/UX designer</span></li>
+                <li><span class="tech-text">Back-end developer</span></li>
+                <li><span class="tech-text">Front-end developer</span></li>
+              </ul>  
+            </div>
+          </div>
+          <div class="details-info-cont flex items-start justify-center min-w-[250px] px-4">
+            <div class="flex flex-col items-start">
+              <h3 class="tech-cont-title">Tech stack & tools</h3>
+              <ul class="flex flex-wrap max-w-[200px]">
+                <li class="pr-4"><span class="tech-text">React js</span></li>
+                <li class="pr-4"><span class="tech-text">Node js</span></li>
+                <li class="pr-4"><span class="tech-text">Typescript</span></li>
+                <li class="pr-4"><span class="tech-text">Google Oauth</span></li>
+                <li class="pr-4"><span class="tech-text">Gitlab</span></li>
+                <li class="pr-4"><span class="tech-text">Jira</span></li>
+              </ul>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="flex details-section-animation justify-center page-sections px-[5%] pt-[40px]">
+      <div class="inner-container max-w-[1500px] flex justify-start items-center">
+        <div class="left w-[35%]">
+          <div class="title">
+            Registration and authorization
+          </div>
+          <div class="desc">
+            Authorization and registration are possible with google authorization with “The Bert Show” channel credentials. After the authorization process is finished the user will be redirected to the Dashboard page.
+          </div>
+        </div>
+        <div class="right w-[50%] ml-[5%]">
+          <img src="./assets/images/authorization.png" class="rounded-[10px]"/>
+        </div>
+      </div>
+    </section>
+    <section class="flex details-section-animation justify-center page-sections px-[5%] pt-[40px]">
+      <div class="inner-container max-w-[1500px] flex justify-start items-center">
+        <div class="left w-[50%]">
+          <img src="./assets/images/dashboard.png" class="rounded-[10px]"/>
+        </div>
+        <div class="right w-[35%] ml-[5%]">
+          <div class="title">
+            Dashboard
+          </div>
+          <div class="desc">
+            The dashboard gives users an overview of the information through the widgets they can take see in The listenable web application. Widgets consist of charts, tables and lists.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="flex details-section-animation justify-center page-sections px-[5%] pt-[40px]">
+      <div class="inner-container max-w-[1500px] flex justify-start items-center">
+        <div class="left w-[35%]">
+          <div class="title">
+            Channel Stats
+          </div>
+          <div class="desc">
+            On the channel stats page users can see detailed statistics of “The Bert Show” youtube channel: total listening time based on the USA states, also it is possible to check in which state what age categories were watching/listening the podcasts. Audience statistics divided by gender. The user can see channel traffic data both daily and monthly.
+          </div>
+        </div>
+        <div class="right w-[50%] ml-[5%]">
+          <img src="./assets/images/channelStats.png" class="rounded-[10px]"/>
+        </div>
+      </div>
+    </section>
+    <section class="flex details-section-animation justify-center page-sections px-[5%] pt-[40px]">
+      <div class="inner-container max-w-[1500px] flex justify-start items-center">
+        <div class="left w-[50%]">
+          <img src="./assets/images/episodes.png" class="rounded-[10px]"/>
+        </div>
+        <div class="right w-[35%] ml-[5%]">
+          <div class="title">
+            Episodes
+          </div>
+          <div class="desc">
+            Episode page shows user Most popular episodes and by clicking on them detailed information about each episode: audience divided by gender. Total views and average listening time based on the USA states. Episode average view percentage. Episode likes, dislikes, shares and comments stats. Also subscribers net change after the episode was uploaded.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="flex details-section-animation justify-center page-sections px-[5%] pt-[40px]">
+      <div class="inner-container max-w-[1500px] flex justify-start items-center">
+        <div class="left w-[35%]">
+          <div class="title">
+            Popular topics
+          </div>
+          <div class="desc">
+            list of the most common tweets in the last 24 hours in the USA. 
+          </div>
+        </div>
+        <div class="right w-[50%] ml-[5%]">
+          <img src="./assets/images/popTopicks.png" class="rounded-[10px]"/>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./script/script.js"></script>
+</body>
+</html>
