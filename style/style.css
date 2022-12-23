@@ -251,3 +251,18 @@ section.details-section-animation .right.active {
   transform: translateX(0);
   opacity: 1;
 }
+
+section.details-section-animation img {
+  box-shadow: 5px 4px 11px 0px rgba(0,0,0,0.34);
+  -webkit-box-shadow: 5px 4px 11px 0px rgba(0,0,0,0.34);
+  -moz-box-shadow: 5px 4px 11px 0px rgba(0,0,0,0.34);
+}
+
+.hero {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.hero.active{
+  opacity: 1;
+}
