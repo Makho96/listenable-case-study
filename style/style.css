@@ -299,6 +299,7 @@ section.details-section-animation img {
 
 .flip-card-back {
   background-color: #1e1e1e;
+  font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
   transform: rotateY(180deg);
 }
