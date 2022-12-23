@@ -308,18 +308,25 @@ section.details-section-animation img {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
+  transform: translate(-13px,10px);
+}
+.hover-text-container::before {
+  content: "";
+  display: inline-block;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.4);
+  width: 13px;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+  z-index: 1;
+  background-color: rgb(197, 59, 151);
+  transform: skewY(35deg);
 }
 .hover-text-container span{
   color: #fff;
-  font-size: 20px;
-  padding: 10px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  padding: 5px 15px;
+  background: rgba(241, 85, 189, 1);
+  z-index: 10;
+  position: relative;
 }
