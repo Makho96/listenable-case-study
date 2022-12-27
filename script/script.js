@@ -19,6 +19,14 @@ const toggleActiveOnScroll = (elements) => {
 }
 
 
+const showDetails = (e) => {
+  const detailsElement = e.parentElement.parentElement.parentElement.parentElement.nextElementSibling;
+  detailsElement.style.transform = 'scale(1)';
+}
+
+const closeDetails = (e) => {
+  e.parentElement.style.transform = 'scale(0)';
+}
 
 document.addEventListener("DOMContentLoaded", function() {
   const elements = document.querySelectorAll('.details-info-cont');
@@ -40,5 +48,5 @@ document.addEventListener("DOMContentLoaded", function() {
     toggleActiveOnScroll(animateSections1);
     }, {
         passive: true
-    });
+  });
 });
